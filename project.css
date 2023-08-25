@@ -1,0 +1,298 @@
+/* Reset some default browser styles */
+body, h1, h4 {
+    margin: 0;
+    padding: 0;
+}
+
+/* Apply styles to the header */
+header {
+    background-color: #ffcc00;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    max-width: 80px;
+    height: auto;
+}
+
+.title {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 30px;
+    color: #ff6600;
+    margin-left: 10px; 
+    margin-top: 15px;
+}
+
+.head {
+    display: flex;
+    gap: 20px;
+}
+
+.head a {
+    text-decoration: none;
+    color: #333333;
+    font-weight: bold;
+}
+
+/* Apply styles to the quote */
+.quote {
+    text-align: center;
+    margin-top:20px;
+    margin-bottom: 8px;
+    font-size: 25px;
+    color: #ef1515;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+/* Apply styles to the image container */
+.image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    margin-top: 5px;
+}
+
+.voyage {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+/* Apply styles to the contact section */
+#contact {
+    text-align: center;
+    padding: 20px;
+    background-color: #ffcc00;
+}
+
+/* Apply styles to the contact details */
+#contact h4 {
+    margin: 10px 0;
+    font-size: 16px;
+    color: #555555;
+}
+
+
+.titre{
+    display:flex;
+    flex-direction: row;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+}
+
+#louer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+#villa {
+    background-color: #ffffff;
+    border: 1px solid #e1e1e1;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+    width: calc(50% - 10px);
+}
+
+.villa {
+    max-width: 60%;
+    height: auto;
+    border-radius: 6px;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+#description {
+    color: #666666;
+}
+
+#price {
+    color: #ff6600;
+    margin: 10px 0;
+    font-size: 18px;
+}
+
+svg.bi-heart-fill, svg.bi-heart-half {
+    fill: #ff6600;
+    width: 16px;
+    height: 16px;
+    margin-right: 4px;
+    vertical-align: middle;
+}
+
+/* Responsive design */
+@media screen and (max-width: 768px) {
+    #villa {
+        width: 100%;
+    }
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+}
+
+/* Styles for the main section */
+#Acheter {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 20px;
+  }
+  
+  /* Styles for each maison container */
+  .maison {
+    display: flex;
+    flex-direction: column;
+    width: 48%;
+    border: 1px solid #ccc;
+    padding: 15px;
+    box-sizing: border-box;
+  }
+  
+  /* Styles for the info div */
+  .info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  /* Styles for the meeting div */
+  .meeting {
+    margin-top: 10px;
+  }
+  
+  /* Additional styles for the image */
+  .vendre {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+  }
+  
+  /* Additional styles for text elements */
+  .description, .prix {
+    text-align: center;
+    margin: 5px 0;
+  }
+  
+  /* Additional styles for the date picker */
+  .date-picker {
+    width: 100%;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+
+  h5{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+    color: #ff6600;
+  }
+  h6{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: #333333;
+    margin-top: 10px;
+    font-size: 25px;
+  }
+ h7{
+    color:black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20px;
+
+ }
+
+
+.title{
+    margin-top: 10px;
+}
+
+
+/* Styling for the counter section */
+.counter {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+
+/* Styling for the counter buttons */
+.increment, .decrement {
+    padding: 5px 10px;
+    border: none;
+    background-color: #f0f0f0;
+    cursor: pointer;
+}
+
+/* Styling for the counter count */
+.count {
+    margin: 0 10px;
+    font-weight: bold;
+}
+
+/* Styling for the total price section */
+.total-price {
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+/* Additional styling for labels */
+label {
+    font-weight: bold;
+    margin-right: 5px;
+}
+
+
+
+
+/* Style for the reserve and cancel buttons */
+.reserve-btn, .cancel-btn {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 10px;
+    font-size: 14px;
+}
+
+.reserve-btn:hover, .cancel-btn:hover {
+    background-color: #0056b3;
+}
+
+/* Style for the message area */
+.message-area {
+    margin-top: 10px;
+    font-size: 16px;
+    color: #007bff;
+}
+
+#louer{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+
+
+
+
+
+
+
+
